@@ -1,0 +1,302 @@
+{ 
+  "pages": [
+	  
+	  {
+	    "path": "pages/auth/login",
+	    "style": {
+	      "navigationBarTitleText": "登录",
+	      "navigationStyle": "custom"
+	    }
+	  }, 
+	   
+	  {
+	      "path": "pages/index/index",
+	      "style": {
+	        "navigationBarTitleText": "首页",
+	        "enablePullDownRefresh": false
+	      }
+	    },
+	  {
+	      "path": "pages/doctor/index/index",
+	      "style": {
+	        "navigationBarTitleText": "首页",
+	        "enablePullDownRefresh": false
+	      }
+	    },
+	 
+	
+	{
+	  "path": "pages/auth/register",
+	  "style": {
+	    "navigationBarTitleText": "注册",
+	    "navigationBarBackgroundColor": "#4CAF50",
+	    "navigationBarTextStyle": "white"
+	  }
+	},
+	
+	{
+	    "path": "pages/auth/forgot",
+	    "style": {
+			"navigationBarTitleText": "忘记密码",
+	        "navigationBarBackgroundColor": "#4CAF50",
+	        "navigationBarTextStyle": "white"
+		}
+	},
+	  
+	  {
+	      "path": "pages/auth/sms-login",
+	      "style": {
+	  		"navigationBarTitleText": "验证码登录",
+	          "navigationBarBackgroundColor": "#4CAF50",
+	          "navigationBarTextStyle": "white"
+	  	}
+	  },
+
+	  
+	  {
+	    "path": "pages/category/category",
+	    "style": {
+	      "navigationBarTitleText": "服务分类",
+	      "enablePullDownRefresh": false
+	    }
+	  },
+	  
+    
+    {
+      "path": "pages/service/detail",
+      "style": {
+        "navigationBarTitleText": "服务详情"
+      }
+    },
+	
+    {
+      "path": "pages/msg/list",
+      "style": {
+        "navigationBarTitleText": "信息"
+		
+      }
+    },
+	
+	{
+	  "path": "pages/msg/detail",
+	  "style": {
+	    "navigationBarTitleText": "聊天框"
+	  }
+	},
+	{
+	  "path": "pages/msg/msgdet",
+	  "style": {
+	    "navigationBarTitleText": "聊天框"
+	  }
+	},
+	
+	{
+	  "path": "pages/user/center",
+	  "style": {
+	    "navigationBarTitleText": "我的"
+		 
+	  }
+	},
+	
+	{
+	  "path": "pages/user/address",
+	  "style": {
+	    "navigationBarTitleText": "地址管理"
+		 
+	  }
+	},
+	
+	{
+	  "path": "pages/user/appointment",
+	  "style": {
+	    "navigationBarTitleText": "我的预约"
+		 
+	  }
+	},
+	{
+	  "path": "pages/user/complaint",
+	  "style": {
+	    "navigationBarTitleText": "投诉"
+		 
+	  }
+	},
+	{
+	  "path": "pages/user/comdetail",
+	  "style": {
+	    "navigationBarTitleText": "投诉详情"
+		 
+	  }
+	},
+	{
+	  "path": "pages/payments/checkout",
+	  "style": {
+	    "navigationBarTitleText": "支付"
+		 
+	  }
+	},
+	
+	{
+	  "path": "pages/user/detail",
+	  "style": {
+	    "navigationBarTitleText": "个人信息"
+	  }
+	},
+	
+	//医生端
+	{
+	   "path": "pages/doctor/auth/login",
+	   "style": {
+	     "navigationBarTitleText": "医生端登录",
+	     "enablePullDownRefresh": false
+	 	
+	   }
+	 },
+	{
+	  "path": "pages/doctor/auth/register",
+	  "style": {
+	    "navigationBarTitleText": "注册",
+	    "navigationBarBackgroundColor": "#4CAF50",
+	    "navigationBarTextStyle": "white"
+	  }
+	},
+	
+	{
+	    "path": "pages/doctor/auth/forgot",
+	    "style": {
+			"navigationBarTitleText": "忘记密码",
+	        "navigationBarBackgroundColor": "#4CAF50",
+	        "navigationBarTextStyle": "white"
+		}
+	},
+	  
+	  {
+	      "path": "pages/doctor/auth/sms-login",
+	      "style": {
+	  		"navigationBarTitleText": "验证码登录",
+	          "navigationBarBackgroundColor": "#4CAF50",
+	          "navigationBarTextStyle": "white"
+	  	}
+	  },
+	  
+	  {
+	      "path": "pages/doctor/msg/list",
+	      "style": {
+	        "navigationBarTitleText": "信息"
+	      }
+	    },
+		{
+		    "path": "pages/doctor/msg/msgdet",
+		    "style": {
+		      "navigationBarTitleText": "聊天框"
+		    }
+		  },
+		{
+		    "path": "pages/doctor/user/center",
+		    "style": {
+		      "navigationBarTitleText": "我的"
+		      
+		  	
+		    }
+		  },
+		  
+		  {
+		      "path": "pages/doctor/index/category",
+		      "style": {
+		        "navigationBarTitleText": "服务分类",
+		        "enablePullDownRefresh": false
+		    	
+		      }
+		    },
+			
+			
+			   {
+			      "path": "pages/doctor/index/detail",
+			      "style": {
+			        "navigationBarTitleText": "详情页"
+			        
+			    	
+			      }
+			    },
+				
+				{
+				    "path": "pages/doctor/index/complaint",
+				    "style": {
+				      "navigationBarTitleText": "投诉管理"
+				      
+				  	
+				    }
+				  },
+				  {
+				      "path": "pages/doctor/index/appointment",
+				      "style": {
+				        "navigationBarTitleText": "预约服务"
+				        
+				    	
+				      }
+				    },
+					
+					
+	{
+	  "path": "pages/doctor/user/appointment",
+	  "style": {
+	    "navigationBarTitleText": "我的预约"
+	  }
+	},
+	
+	{
+	  "path": "pages/doctor/user/comment",
+	  "style": {
+	    "navigationBarTitleText": "我的评价"
+	  }
+	},
+	
+	{
+	  "path": "pages/doctor/user/complaint",
+	  "style": {
+	    "navigationBarTitleText": "我的投诉"
+	  }
+	},
+	
+	{
+	  "path": "pages/doctor/user/service",
+	  "style": {
+	    "navigationBarTitleText": "我的服务"
+	  }
+	},
+	
+	{
+	  "path": "pages/doctor/user/detail",
+	  "style": {
+	    "navigationBarTitleText": "我的信息"
+	  }
+	}
+	
+  ],
+  "globalStyle": {
+        "navigationStyle": "custom" // 隐藏默认导航栏
+  },
+  "tabBar": {
+    "custom":true,
+    "list": [
+		
+		      {
+		        "pagePath": "pages/doctor/index/index"
+		      },
+		      {
+		        "pagePath": "pages/doctor/msg/list"
+		      },
+		      {
+		        "pagePath": "pages/doctor/user/center"
+		      },
+			  {
+			    "pagePath": "pages/index/index"
+			  },
+			  {
+			    "pagePath": "pages/msg/list"
+			  },
+			  {
+			    "pagePath": "pages/user/center"
+			  }
+	]
+  }
+}
